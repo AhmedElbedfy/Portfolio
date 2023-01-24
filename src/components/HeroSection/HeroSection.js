@@ -111,7 +111,9 @@ function HeroSection() {
                     WATCH TRAILER <i className="far fa-play-circle" />
                 </Button>
                 </div> */}
-                    <div className="hero--down-arrow arrow-anim">🔻</div>
+                    <div className="hero--down-arrow arrow-anim">
+                        <img src="images/down-arrow.svg" alt="" width={50} height={50} />
+                    </div>
                 </div>
             </div>
         </>
